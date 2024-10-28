@@ -4,10 +4,11 @@ import Stack from '@mui/material/Stack';
 
 import { FaAngleDown } from "react-icons/fa6";
 import CountryDropDown from '../CountryDropDown';
-import { IoIosSearch } from "react-icons/io";
 import { Button } from '@mui/material';
 import { FiUser } from "react-icons/fi";
 import { IoBagOutline } from "react-icons/io5";
+import SearchBox from './SearchBox';
+import Navigation from './Navigation';
 const Header = () => {
     return (
         <>
@@ -29,13 +30,7 @@ const Header = () => {
 
                         <div className='col-sm-10 d-flex align-items-center part2'>
                             <CountryDropDown/>
-
-                            {/* Header search star here */}
-                            <div className='headerSearch ml-3 mr-3'>
-                                    <input type='text' placeholder='Search for products...'/>
-                                   <Button><IoIosSearch/></Button> 
-                            </div>
-                            {/* Header search end here */}
+                            <SearchBox/>
 
                             <div className='part3 d-flex align-items-center ml-auto'>
                                 <Button className='circle mr-3'><FiUser/></Button>
@@ -51,6 +46,10 @@ const Header = () => {
                     </div>
                 </div>
             </header>
+
+        
+            <Navigation/>
+
             </div>
         </>
     )
