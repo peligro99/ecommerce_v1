@@ -156,7 +156,7 @@ const Home = () => {
 
 <form>
 <IoMailOutline />
-<input type="text"/>
+<input type="text" placeholder="Your Email Address"/>
 <Button>Suscribe</Button>
 </form>
 
