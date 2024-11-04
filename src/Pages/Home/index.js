@@ -3,8 +3,10 @@ import banner1 from '../../assets/images/banner1.jpg';
 import banner2 from '../../assets/images/banner2.jpg';
 import banner3 from '../../assets/images/banner3.jpg';
 import banner4 from '../../assets/images/banner4.jpg';
+import newsletterImg from '../../assets/images/coupon.png';
 import { Button } from "@mui/material/";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import { IoMailOutline } from "react-icons/io5";
 import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -140,6 +142,37 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
+
+            <section className="newsLetterSection mt-3 mb-3 d-flex align-items-center">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6">
+                        <p className="text-white mb-1">$20 discount for you first order</p>
+                        <h3 className="text-white">Join our newsletter and get...</h3>
+                        <p className="text-light">Join our email subscription now to get 
+                         updates<br/> on promotions and coupons.</p>
+
+
+<form>
+<IoMailOutline />
+<input type="text"/>
+<Button>Suscribe</Button>
+</form>
+
+
+
+                        </div>
+
+                        <div className="col-md-6">
+                            <img src={newsletterImg}/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <br/><br/><br/><br/><br/><br/>
         </>
     )
 }
