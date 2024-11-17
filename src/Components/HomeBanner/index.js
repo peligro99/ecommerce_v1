@@ -16,16 +16,16 @@ const HomeBanner = ()=>{
         <div className="homeBannerSection">
             <Slider {...settings}>
                 <div className="item">
-                    <img src="https://image.hm.com/assets/hm/ea/99/ea9997ab6c3f41fd717da7c9597fa60ffce7fc0b.jpg?imwidth=2140" className="w-100"/>
+                    <img src="https://sslimages.shoppersstop.com/sys-master/root/h1e/h9b/32374912352286/Static-Web---2024-04--01-new-hp-page.jpg" className="w-100"/>
                 </div>
                 <div className="item">
-                    <img src="https://img01.ztat.net/article/spp-media-p1/44a5d031780731e89ec5fcb5cf16af66/611db5bd48454f489ccd0ae6cb7e684b.jpg?imwidth=762" className="w-100"/>
+                    <img src="https://sslimages.shoppersstop.com/sys-master/root/h1e/h9b/32374912352286/Static-Web---2024-04--01-new-hp-page.jpg" className="w-100"/>
                 </div>
                 <div className="item">
-                    <img src="https://img01.ztat.net/article/spp-media-p1/44a5d031780731e89ec5fcb5cf16af66/611db5bd48454f489ccd0ae6cb7e684b.jpg?imwidth=762" className="w-100"/>
+                    <img src="https://sslimages.shoppersstop.com/sys-master/root/h1e/h9b/32374912352286/Static-Web---2024-04--01-new-hp-page.jpg" className="w-100"/>
                 </div>
                 <div className="item">
-                    <img src="https://img01.ztat.net/article/spp-media-p1/44a5d031780731e89ec5fcb5cf16af66/611db5bd48454f489ccd0ae6cb7e684b.jpg?imwidth=762" className="w-100"/>
+                    <img src="https://sslimages.shoppersstop.com/sys-master/root/h1e/h9b/32374912352286/Static-Web---2024-04--01-new-hp-page.jpg" className="w-100"/>
                 </div>
             </Slider>
            
